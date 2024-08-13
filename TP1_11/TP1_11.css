@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    background-color: #e0e0e0;
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    margin-bottom: 20px; 
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
